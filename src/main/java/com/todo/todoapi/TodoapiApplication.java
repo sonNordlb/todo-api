@@ -1,0 +1,15 @@
+package com.todo.todoapi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TodoapiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TodoapiApplication.class, args
+		);
+		System.out.println("Connected to DB");
+	}
+
+}
