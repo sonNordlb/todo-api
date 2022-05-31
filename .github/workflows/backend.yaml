@@ -1,0 +1,13 @@
+name: backend
+on: [push]
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+jobs:
+  build-angular-app:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ls -la
+      - uses: actions/checkout@v3
+      - run: ls -la
+
