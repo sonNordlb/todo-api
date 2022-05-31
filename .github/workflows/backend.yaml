@@ -16,4 +16,5 @@ jobs:
           cache: 'maven'
       - run: |
           mvn clean install -DskipTests
+          ls -la
   
